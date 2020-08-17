@@ -3,19 +3,23 @@
     <div>
       <Logo />
       <h1 class="title">
-        river-flow
+        Texas Flows
       </h1>
+      <p>
+        This site iis under construction. Stay tuned. 
+      </p>
+
       <div class="links">
         <a
-          href="https://nuxtjs.org/"
+          href="https://nicholas.works/"
           target="_blank"
           rel="noopener noreferrer"
           class="button--green"
         >
-          Documentation
+          Build by Hopper
         </a>
         <a
-          href="https://github.com/nuxt/nuxt.js"
+          href="https://github.com/nicholashopper/texas-flows"
           target="_blank"
           rel="noopener noreferrer"
           class="button--grey"
