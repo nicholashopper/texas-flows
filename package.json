@@ -6,7 +6,7 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "./get-data-for-build.sh && nuxt generate"
   },
   "dependencies": {
     "nuxt": "^2.14.0"
