@@ -5,8 +5,9 @@
       <h1 class="title">
         Texas Flows
       </h1>
+      <TotalRiverReport />
       <p>
-        This site iis under construction. Stay tuned. 
+        This site is under construction. Stay tuned. 
       </p>
 
       <div class="links">
@@ -16,7 +17,7 @@
           rel="noopener noreferrer"
           class="button--green"
         >
-          Build by Hopper
+          Built by Hopper
         </a>
         <a
           href="https://github.com/nicholashopper/texas-flows"
