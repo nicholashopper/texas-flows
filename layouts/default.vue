@@ -30,11 +30,10 @@
         </v-list>
       </v-menu>
     </v-app-bar>
-
+    
 
 
     <Nuxt />
-
 
     <v-card height="150">
     <v-footer
@@ -71,7 +70,11 @@ html {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
   background: #fafafa;
-  background-image: './static/background.svg';
+  width: 100%;
+  height: 100%;
+  background-image: url('/background.png');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
 }
 
 *,
