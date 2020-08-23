@@ -1,5 +1,10 @@
 <template>
-  <span id="RiverButton" class="box" v-if="river.name">
+  <nuxt-link
+              tag="span"
+              :to="getRoute()"
+              id="RiverButton"
+              class="box"
+              v-if="river.name">
     <div class="chart">
       <div class="info">
         <b>
@@ -8,13 +13,20 @@
         </b>
       </div>
     </div>
-  </span>
+  </nuxt-link>
 </template>
 
 <script>
+var _ = require('lodash');
+
 export default {
   name: "RiverButton",
-  props: ['river']
+  props: ['river'],
+  methods: {
+    getRoute() {
+      return '/rivers/' + _.kebabCase(this.river.name);
+    }
+  }
 };
 </script>
 

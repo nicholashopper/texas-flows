@@ -16,7 +16,7 @@
     }
   },
   {
-    "name": "Frio River",
+    "name": "Guadalupe River",
     "rating": "B-",
     "rightNow": {
       "flow": 30,
@@ -24,7 +24,7 @@
     }
   },
   {
-    "name": "San Marcos River",
+    "name": "Comal River",
     "rating": "A+",
     "rightNow": {
       "flow": 100,
@@ -32,7 +32,7 @@
     }
   },
   {
-    "name": "Frio River",
+    "name": "Brazos River",
     "rating": "B-",
     "rightNow": {
       "flow": 30,
