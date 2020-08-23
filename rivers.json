@@ -14,5 +14,29 @@
       "flow": 100,
       "tempature": 82
     }
+  },
+  {
+    "name": "Guadalupe River",
+    "rating": "B-",
+    "rightNow": {
+      "flow": 30,
+      "tempature": 77
+    }
+  },
+  {
+    "name": "Comal River",
+    "rating": "A+",
+    "rightNow": {
+      "flow": 100,
+      "tempature": 82
+    }
+  },
+  {
+    "name": "Brazos River",
+    "rating": "B-",
+    "rightNow": {
+      "flow": 30,
+      "tempature": 77
+    }
   }
 ]
