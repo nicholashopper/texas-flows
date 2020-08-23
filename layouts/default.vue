@@ -1,6 +1,55 @@
 <template>
   <div>
+    <v-app-bar>
+      <v-btn icon>
+        <v-icon>mdi-heart</v-icon>
+      </v-btn>
+      <v-toolbar-title>Texas Flows</v-toolbar-title>
+      <v-spacer></v-spacer>
+      <v-menu
+        left
+        bottom
+      >
+        <template v-slot:activator="{ on, attrs }">
+          <v-btn
+            icon
+            v-bind="attrs"
+            v-on="on"
+          >
+            <v-icon>mdi-dots-vertical</v-icon>
+          </v-btn>
+        </template>
+
+        <v-list>
+          <v-list-item
+            v-for="n in 5"
+            :key="n"
+            @click="() => {}"
+          >
+            <v-list-item-title>Option {{ n }}</v-list-item-title>
+          </v-list-item>
+        </v-list>
+      </v-menu>
+    </v-app-bar>
+
+
+
     <Nuxt />
+
+
+    <v-card height="150">
+    <v-footer
+      absolute
+      class="font-weight-medium"
+    >
+      <v-col
+        class="text-center"
+        cols="12"
+      >
+        {{ new Date().getFullYear() }} — <strong> Texas Flows </strong>
+      </v-col>
+    </v-footer>
+  </v-card>
   </div>
 </template>
 
