@@ -9,9 +9,10 @@
     "generate": "./get-data-for-build.sh && nuxt generate"
   },
   "dependencies": {
-    "kebab-case": "^1.0.0",
     "lodash": "^4.17.20",
     "nuxt": "^2.14.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.11.2"
+  }
 }
