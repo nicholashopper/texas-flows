@@ -14,5 +14,29 @@
       "flow": 100,
       "tempature": 82
     }
+  },
+  {
+    "name": "Frio River",
+    "rating": "B-",
+    "rightNow": {
+      "flow": 30,
+      "tempature": 77
+    }
+  },
+  {
+    "name": "San Marcos River",
+    "rating": "A+",
+    "rightNow": {
+      "flow": 100,
+      "tempature": 82
+    }
+  },
+  {
+    "name": "Frio River",
+    "rating": "B-",
+    "rightNow": {
+      "flow": 30,
+      "tempature": 77
+    }
   }
 ]
