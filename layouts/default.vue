@@ -1,9 +1,6 @@
 <template>
   <div>
-    <v-app-bar>
-      <v-btn icon>
-        <v-icon>mdi-heart</v-icon>
-      </v-btn>
+    <v-app-bar>  
       <v-toolbar-title>Texas Flows</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-menu
