@@ -1,6 +1,8 @@
 <template>
   <div>
     <v-app-bar>  
+      <img width="48" height="48" :src="require('@/static/texas-flows-icon.png')" />
+      <div style="margin: 8px"/>
       <v-toolbar-title>Texas Flows</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-menu
@@ -68,6 +70,8 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+  background: #fafafa;
+  background-image: './static/background.svg';
 }
 
 *,
@@ -105,4 +109,6 @@ html {
   color: #fff;
   background-color: #35495e;
 }
+
+
 </style>
