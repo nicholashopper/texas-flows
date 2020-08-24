@@ -10,7 +10,9 @@
   },
   "dependencies": {
     "lodash": "^4.17.20",
-    "nuxt": "^2.14.0"
+    "nuxt": "^2.14.0",
+    "vuetify": "^2.0.0",
+    "@nuxtjs/vuetify": "^1.11.2"
   },
   "devDependencies": {
     "@nuxtjs/vuetify": "^1.11.2"
