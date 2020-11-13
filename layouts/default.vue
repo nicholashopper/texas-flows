@@ -1,9 +1,8 @@
 <template>
   <div>
-    <v-app-bar>
-      <v-btn icon>
-        <v-icon>mdi-heart</v-icon>
-      </v-btn>
+    <v-app-bar>  
+      <img width="48" height="48" :src="require('@/static/texas-flows-icon.png')" />
+      <div style="margin: 8px"/>
       <v-toolbar-title>Texas Flows</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-menu
@@ -31,25 +30,24 @@
         </v-list>
       </v-menu>
     </v-app-bar>
-
+    
 
 
     <Nuxt />
-
-
-    <v-card height="150">
-    <v-footer
-      absolute
-      class="font-weight-medium"
-    >
-      <v-col
-        class="text-center"
-        cols="12"
+    
+    <!-- <v-card height="150">
+      <v-footer
+        absolute
+        class="font-weight-medium"
       >
-        {{ new Date().getFullYear() }} — <strong> Texas Flows </strong>
-      </v-col>
-    </v-footer>
-  </v-card>
+        <v-col
+          class="text-center"
+          cols="12"
+        >
+          {{ new Date().getFullYear() }} — <strong> Texas Flows </strong>
+        </v-col>
+      </v-footer>
+    </v-card> -->
   </div>
 </template>
 
@@ -71,6 +69,12 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+  background: #fafafa;
+  width: 100%;
+  height: 100%;
+  background-image: url('/background.png');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
 }
 
 *,

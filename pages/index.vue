@@ -1,10 +1,7 @@
 <template>
   <div class="container">
     <div>
-      <Logo />
-      <h1 class="title">
-        Texas Flows
-      </h1>
+      <div style="margin: 128px"/>
       <TotalRiverReport />
       <p>
         This site is under construction. Stay tuned. 
