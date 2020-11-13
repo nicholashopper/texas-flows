@@ -9,10 +9,12 @@
     "generate": "./get-data-for-build.sh && nuxt generate"
   },
   "dependencies": {
+    "@nuxtjs/vuetify": "^1.11.2",
+    "chart.js": "^2.9.4",
     "lodash": "^4.17.20",
-    "nuxt": "^2.14.0",
-    "vuetify": "^2.0.0",
-    "@nuxtjs/vuetify": "^1.11.2"
+    "nuxt": "^2.14.7",
+    "vue-chartjs": "^3.5.1",
+    "vuetify": "^2.3.17"
   },
   "devDependencies": {
     "@nuxtjs/vuetify": "^1.11.2"
