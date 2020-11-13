@@ -45,6 +45,10 @@ export default {
 <style>
 .river-page {
   background-color: white;
+  padding-top: 32px;
+  padding-right: 32px;
+  padding-bottom: 16px;
+  padding-left: 32px;
 }
 
 </style>
