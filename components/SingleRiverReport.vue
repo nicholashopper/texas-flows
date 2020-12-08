@@ -3,6 +3,7 @@
     <h1> {{ riverName }} </h1>
     <div v-if="isLoaded">
       {{ river }}
+      <Chart/>
     </div>
   </div>
 </template>
