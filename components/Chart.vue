@@ -54,11 +54,14 @@
       renderLabels(river) {
         let days = []
         days.push(river.startDate);
-        // Access river.timeSeries.length => 60
-        // Mabye loop to add missing days between?
-        days.push(river.endDate);
 
+           for(var i = 0; i < river.timeSeries.length-60; i++) {
+              days.push('');
+           }
+        // Access river.timeSeries.length => 60
+        days.push(river.endDate);
         return days;
+      
       },
       getGradient() {
         var canvas = document.getElementById("line-chart");
